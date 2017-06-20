@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <LinearLayout
+        android:id="@+id/lay_scan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size"
+        android:layout_marginBottom="15dp"
+        android:background="@color/landing_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/scan_asset" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_assest"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size"
+        android:layout_below="@+id/lay_scan"
+        android:layout_marginBottom="15dp"
+        android:background="@color/landing_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/server_small" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_assest"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_help"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size"
+        android:layout_below="@+id/lay_submit"
+        android:layout_marginBottom="15dp"
+        android:background="@color/landing_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/help" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size"
+        android:layout_below="@+id/lay_help"
+        android:background="@color/landing_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/sign_out" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signout"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+
+</RelativeLayout>

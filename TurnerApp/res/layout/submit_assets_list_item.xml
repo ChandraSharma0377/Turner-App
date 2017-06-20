@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="1" >
+
+    <CheckBox
+        android:id="@+id/cb_submit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".31"
+        android:button="@drawable/customdrawablecheckbox"
+        android:focusable="false"
+        android:paddingLeft="10dp"
+        android:text="PROFIT CENTER" />
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/tv_profit_center" -->
+    <!-- android:layout_width="0dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight=".2" /> -->
+
+    <TextView
+        android:id="@+id/tv_company_code"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".23"
+        android:gravity="center"
+        android:text="COMPANY CODE"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_assets_no"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".23"
+        android:gravity="center"
+        android:text="ASSET NUMBERS"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_scan_datetime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".23"
+        android:gravity="center"
+        android:text="SCAN DATETIME"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
